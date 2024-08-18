@@ -1,0 +1,9 @@
+The extension collects the following data:
+
+
+User ID (provided by the user or a default value)
+Current webpage URL and title
+Webpage content (limited to 5000 characters)
+User-defined automation rules
+
+This data is sent to our server for processing to generate relevant automation suggestions.
