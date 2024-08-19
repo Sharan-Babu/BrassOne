@@ -45,7 +45,7 @@ The extension is currently under review in the Chrome Web Store. It can also be 
 
 3) **Connect to your serverless cluster** - [Connect to TiDB cluster](https://docs.pingcap.com/tidbcloud/connect-to-tidb-cluster-serverless), [Serverless Drivers](https://docs.pingcap.com/tidbcloud/serverless-driver)
 
-4) **AI-assisted SQL Editor!** - Ctrl + I on windows - [TiDB SQL AI Assistant](https://docs.pingcap.com/tidbcloud/explore-data-with-chat2query), [TiDB AI](https://tidb.ai/)
+4) **AI-assisted SQL Editor and TiDB Chatbot!** - Ctrl + I on windows - [TiDB SQL AI Assistant](https://docs.pingcap.com/tidbcloud/explore-data-with-chat2query), [TiDB AI Chatbot](https://tidb.ai/)
 
 5) **Vector Search on TiDB** - [Vector Search overview](https://docs.pingcap.com/tidbcloud/vector-search-overview), [PingCap AI](https://www.pingcap.com/ai/), [TiDB Vector Search](https://www.pingcap.com/blog/tidb-vector-search-public-beta/)
 
