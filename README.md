@@ -3,10 +3,11 @@ Easily build automations for HTML snippets that popup with helpful information w
 
 We have built an autonomous web assistant that knows your web reading preferences and generates HTML snippets accordingly. To use it you can simply open the extension when you want to create a new kind of automation. These automations could be things like:
 
-When I visit a news article, give me a summary
-Estimate reading time for articles and display it
-When I visit a careers page, highlight jobs related to computer science
-When I visit a Hackathon page, list the top prizes
+- When I visit a news article, give me a summary
+- Estimate reading time for articles and display it
+- When I visit a careers page, highlight jobs related to computer science
+- When I visit a Hackathon page, list the top prizes
+
 Once automations like these have been submitted, whenever you visit a website, the AI assistant (chrome extension) will search (vector search) for automations that may apply and accordingly display helpful HTML snippets in the extension. The extension will automatically open when needed! This way, you can setup automations to gain massive productivity boosts!
 
 ## Logic Flow
