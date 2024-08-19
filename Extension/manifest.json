@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Brass One - Web Automation Assistant",
+  "version": "1.0",
+  "description": "Create custom automations for websites",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": [
+    "<all_urls>",
+    "https://brassworker.sharan-goku19.workers.dev/"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
