@@ -1,0 +1,26 @@
+1. POST/brass/vector_search
+USE test;
+SELECT id, automation_desc
+FROM brass
+WHERE user_id = ${userid}
+ORDER BY VEC_COSINE_DISTANCE(automation_embedding, ${query_vector})
+LIMIT 15;
+
+2. DELETE/brass
+USE test;
+DELETE FROM `brass` WHERE `user_id` = ${user_id} AND `automation_desc` = ${automation_desc} ;
+
+3. PUT/brass
+USE test;
+UPDATE `brass` SET `user_id` = IF(length(${user_id})>0,${user_id},`user_id`),
+`automation_desc` = IF(length(${automation_desc})>0,${automation_desc},`automation_desc`),
+`automation_embedding` = IF(length(${automation_embedding})>0,${automation_embedding},`automation_embedding`) 
+ WHERE `id` = ${id} ;
+
+4. POST/brass
+USE test;
+INSERT INTO `brass` (`user_id`,`automation_desc`,`automation_embedding`,`always`) VALUES(${user_id},${automation_desc},${automation_embedding},${always});
+
+5. GET/brass
+USE test;
+SELECT * FROM `brass` WHERE `id` = ${id} ;
