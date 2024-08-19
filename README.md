@@ -13,7 +13,7 @@ Once automations like these have been submitted, whenever you visit a website, t
 graph TD
     A[Chrome Extension] -->|Upload Flow| B(User inputs automation)
     B --> C{Send to Cloudflare Worker}
-    C --> D[Process with Gemini AI]
+    C --> D[Process with Gemini AI and TiDB - Vector Search]
     D --> E[Action in TiDB - Create/Edit/Delete]
     E --> F[Return confirmation]
     F --> A
