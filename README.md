@@ -51,3 +51,5 @@ The extension is currently under review in the Chrome Web Store. It can also be 
 9) **Embeddings** -  [Google AI Embeddings](https://ai.google.dev/gemini-api/docs/embeddings), [Embeddings Document Search](https://ai.google.dev/gemini-api/tutorials/document_search)
 
 10) **Cloudflare Worker Wrangler Docs** - [Wrangler Docs](https://developers.cloudflare.com/workers/wrangler/install-and-update/)
+
+11) **Other resources** - [Link](https://tidbhackathon2024.devpost.com/resources)
