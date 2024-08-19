@@ -1,0 +1,13 @@
+name = "brassworker"
+main = "src/index.js"
+compatibility_date = "2023-05-18"
+
+[build]
+command = "npm install"
+
+[build.upload]
+format = "modules"
+
+[[build.upload.rules]]
+type = "ESModule"
+globs = ["**/*.js"]
