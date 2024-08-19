@@ -9,6 +9,24 @@ When I visit a careers page, highlight jobs related to computer science
 When I visit a Hackathon page, list the top prizes
 Once automations like these have been submitted, whenever you visit a website, the AI assistant (chrome extension) will search (vector search) for automations that may apply and accordingly display helpful HTML snippets in the extension. The extension will automatically open when needed! This way, you can setup automations to gain massive productivity boosts!
 
+```mermaid
+graph TD
+    A[Chrome Extension] -->|Upload Flow| B(User inputs automation)
+    B --> C{Send to Cloudflare Worker}
+    C --> D[Process with Gemini AI]
+    D --> E[Action in TiDB - Create/Edit/Delete]
+    E --> F[Return confirmation]
+    F --> A
+
+    A -->|Query Flow| G(New webpage detected)
+    G --> H{Send page content to Cloudflare Worker}
+    H --> I[Retrieve relevant automations from TiDB]
+    I --> J[Generate HTML snippet with Gemini AI]
+    J --> K{Return HTML or 'none'}
+    K --> L[Display in extension popup]
+    L --> A
+```
+
 ## Local Installation Steps
 The extension is currently under review in the Chrome Web Store. It can also be used locally by following these steps: 
 1. Download this repository and remember the location of the 'Extension' folder
