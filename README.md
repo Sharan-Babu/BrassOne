@@ -35,7 +35,7 @@ The extension is currently under review in the Chrome Web Store. It can also be 
 1. Download this repository and remember the location of the 'Extension' folder
 2. Visit chrome://extensions/
 3. Switch on developer mode at top right
-4. Click load unpacked
+4. Click 'load unpacked'
 5. Select the 'Extension' folder. That's it! Your extension is now ready to use.
 
 ## Useful Reference Links
