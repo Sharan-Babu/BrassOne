@@ -10,6 +10,14 @@ We have built an autonomous web assistant that knows your web reading preference
 
 Once automations like these have been submitted, whenever you visit a website, the AI assistant (chrome extension) will search (vector search) for automations that may apply and accordingly display helpful HTML snippets in the extension. The extension will automatically open when needed! This way, you can setup automations to gain massive productivity boosts!
 
+## Local Installation Steps
+The extension is currently under review in the Chrome Web Store. It can also be used locally by following these steps: 
+1. Download this repository and remember the location of the 'Extension' folder
+2. Visit chrome://extensions/
+3. Switch on developer mode at top right
+4. Click 'load unpacked'
+5. Select the 'Extension' folder. That's it! Your extension is now ready to use.
+
 ## Logic Flow
 
 ```mermaid
@@ -29,14 +37,6 @@ graph TD
     K --> L[Display in extension popup]
     L --> A
 ```
-
-## Local Installation Steps
-The extension is currently under review in the Chrome Web Store. It can also be used locally by following these steps: 
-1. Download this repository and remember the location of the 'Extension' folder
-2. Visit chrome://extensions/
-3. Switch on developer mode at top right
-4. Click 'load unpacked'
-5. Select the 'Extension' folder. That's it! Your extension is now ready to use.
 
 ## Useful Reference Links
 1) **Intro to TiDB and underlying mechanisms - The first links you should visit if you have never worked with TiDB.** : [TiDB dev guide overview](https://docs.pingcap.com/tidbcloud/dev-guide-overview), [TiDB Bookshop Schema example](https://docs.pingcap.com/tidbcloud/dev-guide-bookshop-schema-design)
