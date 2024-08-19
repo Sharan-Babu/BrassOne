@@ -9,6 +9,8 @@ When I visit a careers page, highlight jobs related to computer science
 When I visit a Hackathon page, list the top prizes
 Once automations like these have been submitted, whenever you visit a website, the AI assistant (chrome extension) will search (vector search) for automations that may apply and accordingly display helpful HTML snippets in the extension. The extension will automatically open when needed! This way, you can setup automations to gain massive productivity boosts!
 
+## Logic Flow
+
 ```mermaid
 graph TD
     A[Chrome Extension] -->|Upload Flow| B(User inputs automation)
