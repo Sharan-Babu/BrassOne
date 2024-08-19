@@ -11,7 +11,7 @@ Once automations like these have been submitted, whenever you visit a website, t
 
 ## Local Installation Steps
 The extension is currently under review in the Chrome Web Store. It can also be used locally by following these steps: 
-1. Extract Zip Folder
+1. Download this repository and remember the location of the 'Extension' folder
 2. Visit chrome://extensions/
 3. Switch on developer mode at top right
 4. Click load unpacked
