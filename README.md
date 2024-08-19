@@ -53,3 +53,6 @@ The extension is currently under review in the Chrome Web Store. It can also be 
 10) **Cloudflare Worker Wrangler Docs** - [Wrangler Docs](https://developers.cloudflare.com/workers/wrangler/install-and-update/)
 
 11) **Other resources** - [Link](https://tidbhackathon2024.devpost.com/resources)
+
+------
+Special thanks to the TiDB team for the clear documentation and super-helpful tools like the AI-SQL Editor which make development so much faster!
