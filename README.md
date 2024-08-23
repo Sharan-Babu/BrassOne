@@ -1,5 +1,6 @@
 # BrassOne
 Easily build automations for HTML snippets that popup with helpful information when you visit websites. Enhances your browsing experiences.
+[Link to Extension](https://chromewebstore.google.com/detail/brass-one-web-automation/kojlcgcbcjbkhngjekakjlgmglpkcoif)
 
 We have built an autonomous web assistant that knows your web reading preferences and generates HTML snippets accordingly. To use it you can simply open the extension when you want to create a new kind of automation. These automations could be things like:
 
@@ -11,7 +12,7 @@ We have built an autonomous web assistant that knows your web reading preference
 Once automations like these have been submitted, whenever you visit a website, the AI assistant (chrome extension) will search (vector search) for automations that may apply and accordingly display helpful HTML snippets in the extension. The extension will automatically open when needed! This way, you can setup automations to gain massive productivity boosts!
 
 ## Local Installation Steps
-The extension is currently under review in the Chrome Web Store. It can also be used locally by following these steps: 
+The extension can also be used locally by following these steps: 
 1. Download this repository and remember the location of the 'Extension' folder
 2. Visit chrome://extensions/
 3. Switch on developer mode at top right
